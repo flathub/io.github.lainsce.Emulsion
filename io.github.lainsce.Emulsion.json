@@ -67,8 +67,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "branch" : "main",
-                    "commit" : "d5d2851f43be2df7aef3ad6a8b5a786ad65540b8"
+                    "branch" : "main"
                 }
             ]
         },
@@ -93,7 +92,7 @@
                 {
                     "type" : "archive",
                     "url" : "https://github.com/lainsce/emulsion/archive/2.0.1.zip",
-                    "sha256" : "d5d2851f43be2df7aef3ad6a8b5a786ad65540b8"
+                    "sha256" : "1772a3a7fe4b1bf415af62d13b4f7d4d1ad470acbbb760e48f86fdce1d82ba62"
                 }
             ]
         }
