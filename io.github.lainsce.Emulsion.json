@@ -73,13 +73,27 @@
             ]
         },
         {
+            "name": "libportal",
+            "buildsystem": "meson",
+            "builddir": true,
+            "config-opts": [
+              "-Dgtk_doc=false"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/flatpak/libportal"
+                }
+            ]
+        },
+        {
             "name" : "emulsion",
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/emulsion/archive/2.0.0.zip",
-                    "sha256" : "77655bae33396e3a3700cf57347a987a96f5aac9cc96cdfc4346e9305048f8d6"
+                    "url" : "https://github.com/lainsce/emulsion/archive/2.0.1.zip",
+                    "sha256" : "d5d2851f43be2df7aef3ad6a8b5a786ad65540b8"
                 }
             ]
         }
