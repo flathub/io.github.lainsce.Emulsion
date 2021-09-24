@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.Emulsion",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "40",
+    "runtime-version" : "41",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Emulsion",
     "finish-args" : [
@@ -90,7 +90,7 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/emulsion/archive/2.0.3.zip",
+                    "url" : "https://github.com/lainsce/emulsion/archive/2.0.2.zip",
                     "sha256" : "4f7281cf4959f25a279671dc69def4b9f926036e5c28bf19a18ab4e2c485c97d"
                 }
             ]
