@@ -45,8 +45,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/emulsion/archive/3.3.6.zip",
-                    "sha256" : "3b105fbd96ca95d8ae20b56b63fca01779eaeba2de77971b5eb616bf825452bc"
+                    "url" : "https://github.com/lainsce/emulsion/archive/3.3.7.zip",
+                    "sha256" : "b0ace83d86b1d867361238078d3e01d473fb19530c5d4a0d7571471103ddc483"
                 }
             ]
         }
