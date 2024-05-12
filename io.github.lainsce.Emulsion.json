@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.Emulsion",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Emulsion",
     "finish-args" : [
