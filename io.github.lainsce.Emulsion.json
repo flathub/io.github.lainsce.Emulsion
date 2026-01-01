@@ -1,14 +1,14 @@
 {
     "app-id" : "io.github.lainsce.Emulsion",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "46",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Emulsion",
     "finish-args" : [
         "--socket=wayland",
         "--socket=fallback-x11",
         "--share=ipc",
-	    "--device=dri"
+        "--device=dri"
     ],
     "cleanup" : [
         "/include",
@@ -28,14 +28,14 @@
             "buildsystem": "meson",
             "builddir": true,
             "config-opts": [
-              "-Dgtk_doc=false"
+                "-Ddocs=false",
+                "-Dtests=false"
             ],
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/flatpak/libportal",
-                    "tag" : "0.4",
-                    "commit" : "f68764e288ede516d902b131cc4fadded3804059"
+                    "url": "https://github.com/flatpak/libportal.git",
+                    "tag": "0.9.1"
                 }
             ]
         },
