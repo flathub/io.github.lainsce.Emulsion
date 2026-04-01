@@ -19,7 +19,3 @@ flatpak run io.github.lainsce.Emulsion
 git clone git@github.com:flathub/io.github.lainsce.Emulsion.git
 flatpak run org.flatpak.Builder build-dir --user --ccache --force-clean --install io.github.lainsce.Emulsion.json
 ```
-
----
-
-**Technologies**: GTK, Vala, libhelium
