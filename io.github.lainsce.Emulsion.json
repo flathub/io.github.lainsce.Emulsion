@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.Emulsion",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
+    "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Emulsion",
     "finish-args" : [
@@ -12,15 +12,9 @@
     ],
     "cleanup" : [
         "/include",
+        "/lib/girepository-1.0",
         "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "/share/vala",
-        "*.la",
-        "*.a"
+        "/share/vala"
     ],
     "modules" : [
         {
